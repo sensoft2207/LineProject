@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="#d0000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_copy_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/menu_copy"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tv_rename"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/menu_rename"
+        android:textColor="@color/colorWhite" />
+<!--
+    <TextView
+        android:id="@+id/tv_delete_formation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/menu_delete_formation"
+        android:textColor="@color/colorWhite" />-->
+</LinearLayout>
